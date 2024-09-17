@@ -1,0 +1,130 @@
+/* Navbar.css */
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color:#f9f9f9;
+  color: #f9f9f9;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo styles */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 40px;
+}
+
+/* Menu styles */
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+/* Hides the menu in mobile view */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
+/* Sidebar styles */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 1500;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Adds the open class when sidebar is visible */
+.sidenav.open {
+  width: 100%;
+}
+
+/* Hamburger icon button */
+.icon {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .icon {
+    display: block;
+  }
+}
+
+.mvp-main-box-cont{
+
+}
+
+.head_container {
+  padding: 15px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mvp-main-box-cont {
+  width: 100% !important;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+div#mvp-bot-nav-wrap {
+  width: 100%;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+li.header-li a span {
+  color: rgb(10, 10, 10);
+}
+

@@ -1,0 +1,71 @@
+.home-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .food-gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .food-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .food-item img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  /* Tabs.css */
+.tabs {
+  max-width: 500px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.tab-buttons {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #f9f9f9;
+  border: none;
+  outline: none;
+  transition: background 0.3s;
+}
+
+.tab-button.active {
+  background: #007bff;
+  color: white;
+}
+
+.tab-button:hover {
+  background: #e7e7e7;
+}
+
+.tab-content {
+  padding: 20px;
+  font-size: 16px;
+}
+.container-score {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.column-score.large {
+  flex: 1 1 calc(68% - 0px);
+}.column-score.small {
+  flex: 1 1 calc(28% - 0px);
+}
