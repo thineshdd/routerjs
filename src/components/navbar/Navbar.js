@@ -52,17 +52,17 @@ function Navbar() {
                   </li>
                   <li className="header-li">
                   <Link to="/">
-                  <span>Latest</span>
+                  <span>Latests</span>
             </Link>
                   </li>
                   <li className="header-li">
                   <Link to="/">
-                  <span>Latest</span>
+                  <span>Latests</span>
             </Link>
                   </li>
                   <li className="header-li">
                   <Link to="/">
-                  <span>Latest</span>
+                  <span>Latesst</span>
             </Link>
                   </li>
                   <li className="header-li">

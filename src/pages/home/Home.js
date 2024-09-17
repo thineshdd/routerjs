@@ -27,7 +27,7 @@ export default function Home() {
         <meta name="description" content="This is the home page of my React application, where you can find the latest updates and news." />
       </Helmet>
             <div className="home-page">
-                <h1>  Home page</h1>
+                <h1>  Home 1page</h1>
                 <div class="container-score">
 		        <div class="column-score large"> 
 
